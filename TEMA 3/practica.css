@@ -1,0 +1,21 @@
+h1{
+    font-size: 40pt;
+    font-family: 'Comic Sans MS';
+    background-color: aquamarine;
+    text-align: center;
+
+}
+p {
+    font-size: 17pt;
+    font-family: Arial;
+}
+
+#inicio{
+    font-size: 34pt;
+    color: red;
+    text-align:left;
+}
+
+.azul{
+    color: green;
+}

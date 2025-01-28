@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f8ff;
+ 
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2e86c1;
+    font-size: 5.5em;
+}
+
+p {
+    font-size: 12em;
+    line-height: 1.5;
+}
+
+.letra-a { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             color: #e74c3c; 
+             font-style: italic;
+            }
+.letra-b { font-family: 'Montserrat', sans-serif;
+             color: #3498db; 
+             
+            }
+.letra-c { font-family: 'Pacifico'; 
+            color: #2ecc71; 
+            
+            }
+.letra-d { font-family: 'Courier Prime', monospace; 
+            color: #9b59b6;
+            }
+.letra-e { font-family: 'Open Sans', sans-serif; 
+            color: #f1c40f; 
+            font-style: italic;
+            }
+.letra-f { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #e67e22; 
+            }
+.letra-g { font-family: 'Roboto', sans-serif; 
+            color: #1abc9c; 
+            font-style: italic;
+            }
+.letra-h { font-family: 'Montserrat', sans-serif; 
+            color: #8e44ad; 
+            }
+.letra-i { font-family: 'Pacifico'; 
+            color: #2980b9; 
+            }
+.letra-j { font-family: 'Courier Prime', monospace; 
+            color: #d35400; 
+            font-style: italic;
+            }
+.letra-k { font-family: 'Open Sans', sans-serif; 
+            color: #c0392b; 
+            }
+.letra-l { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #27ae60; 
+            }
+.letra-m { font-family: 'Roboto', sans-serif; 
+            color: #8e44ad; 
+            }
+.letra-n { font-family: 'Montserrat', sans-serif; 
+            color: #f39c12;
+            font-style: italic;
+            }
+.letra-ñ { font-family: 'Pacifico'; 
+            color: #2980b9; 
+            }
+.letra-o { font-family: 'Courier Prime', monospace; 
+            color: #e74c3c;
+            }
+.letra-p { font-family: 'Open Sans', sans-serif; 
+            color: #3498db; 
+            }
+.letra-q { font-family: 'Lobster';
+            color: #2ecc71; 
+            font-style: italic;
+            }
+.letra-r { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #9b59b6; 
+            }
+.letra-rr { font-family: 'Montserrat', sans-serif; 
+            color: #f1c40f; 
+            }
+.letra-s { font-family: 'Pacifico';    
+            color: #e67e22; 
+            font-style: italic;
+            }
+.letra-t { font-family: 'Courier Prime', monospace; 
+            color: #1abc9c; 
+            }
+.letra-u { font-family: 'Open Sans', sans-serif; 
+            color: #8e44ad; 
+            }
+.letra-v { font-family: 'Lobster'; 
+            color: #2980b9; 
+            }
+.letra-w { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #d35400;
+            font-style: italic;
+            }
+.letra-x { font-family: 'Montserrat', sans-serif; 
+            color: #c0392b; 
+            }
+.letra-y { font-family: 'Pacifico'; 
+            color: #27ae60;
+            }
+.letra-z { font-family: 'Courier Prime', monospace; 
+            color: #e74c3c; 
+            }
+.letra-ch { font-family: 'Open Sans', sans-serif; 
+            color: #3498db; 
+            }
+.letra-ll { font-family: 'Lobster';
+            color: #2ecc71; 
+            font-style: italic;
+            }

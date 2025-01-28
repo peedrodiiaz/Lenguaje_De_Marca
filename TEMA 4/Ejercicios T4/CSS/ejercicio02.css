@@ -1,0 +1,29 @@
+@font-face {
+    font-family:kristen-itc ;
+    src: url(../font/kristen-itc.ttf);
+}
+
+
+p {
+    width: 800px;
+    height: 565px;
+    background-image: url('../IMG/fondo_jovenes.png'), url("../IMG/fondo_trama.png"); 
+    background-size: 85% , cover;
+    background-position: bottom;
+    background-repeat: no-repeat , no-repeat;
+    padding: 100px 50px;
+    border: 0px solid white; 
+    border-radius: 50px; 
+    justify-content: center;
+    margin: 0 auto;
+    font-family: kristen-itc, 'Berlin Sans FB', Arial, sans-serif; 
+    font-size: 35pt; 
+    color: white; 
+    text-align: center; 
+    text-transform: uppercase;
+
+}
+
+
+   
+

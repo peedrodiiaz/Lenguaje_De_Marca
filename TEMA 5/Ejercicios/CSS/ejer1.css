@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul li{
+    color:bisque;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+nav ul li:first-child{
+    padding-left: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+ 
+    background-color: gray;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+   
+    
+}
+nav ul li:hover{
+    background-color:darkslategray;
+    width: 100%;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        /* Estilos base del menú */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 20px;
+            margin: 0;
+            background: #f0f0f0;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            background: white;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        /* Efecto hover sin mover el fondo */
+        nav a:hover {
+            background: red;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: -5px; /* Compensación visual sin mover el fondo */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services/Products</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center;
+    width: 1250px;
+    height: 250px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35pt;
+    color: #3498db; 
+    background-color: yellow; 
+    border: 5px dashed #3498db; 
+    border-radius: 15px; 
+    text-align: center;
+    margin: 0 auto;
+
+}

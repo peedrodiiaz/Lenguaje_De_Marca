@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Orbitron;
+    src: url(../font/Orbitron-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+h1{
+    font-family: Orbitron;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5b8f2a;
+    margin: 0;
+    padding: 0;
+    color: #1c6f29;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: #1c6f2a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#imagen-portada {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#imagen-portada img {
+    width: 100%;
+    display: block;
+}
+
+#menu-indice ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #5b8f2a;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+#menu-indice a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#menu-indice a:hover {
+    background-color: #1c6f29;
+    border-radius: 5px;
+}
+
+main.contenido2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   
+    flex-wrap: wrap;
+    max-width: 70%; 
+    
+}
+
+
+main.contenido2 img {
+    display: block;
+    max-width: 100%;
+   
+}
+
+
+body .fotoypubli{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body .fotoypubli #carrusel {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    max-width: 600px;       
+}
+
+#carrusel img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #1c6f29;
+    border-radius: 10px;
+}
+#navegacion-carrusel {
+    display: flex;
+    justify-content: space-between; 
+                   
+    margin-top: 10px;              
+}
+
+#navegacion-carrusel a {
+    text-decoration: none;
+    background-color: #1c6f2a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#navegacion-carrusel a:hover {
+    background-color: #5b8f2a;
+
+}
+body main{
+    display: flex;
+    flex-direction: column;
+}
+
+body aside#publicidad {
+    background-color: #fff7d9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 20% ;
+    margin-bottom: 10%;
+    
+    
+}
+
+aside#publicidad.anuncio {
+    margin-bottom: 20px;
+}
+
+aside#publicidad video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+aside#publicidad img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    border: 2px solid #1c6f2a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #1c6f2a;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: #333;
+}
+
+article {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+article h2 {
+    font-size: 20px;
+    color: #1c6f2a;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    color: #333;
+    
+}
+article img {
+    width: 30%;
+    
+}
+footer {
+    background-color: #1c6f29;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    bottom: 0;
+    position:relative;
+    width: 100%;
+
+}
+
+.contenedor_footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.columna_footer {
+    width: 30%;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

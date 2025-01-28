@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>El Pastorcito Bizco</title>
+		<meta charset="UTF-8">
+
+		<style type="text/css">
+			/*COLOR DE FONDO DE TODA LA PÁGINA: #2c5017*/
+			
+			body{
+				background-color: #2c5017;
+			}
+			.contenido{
+				width: 85%;
+				min-width: 300px;
+				max-width: 1200px;
+				margin: 0 auto;
+				
+			}
+			.contenido header{
+				margin:0 auto;
+				text-align: center;
+				font: bolder 24pt Verdana;
+				color:#fff;	
+			}
+			.contenido main .fichas{
+				display: flex;
+				
+				flex-wrap: wrap;
+				
+				
+			}
+			.contenido main .fichas article{
+				width: 30%;
+				margin-left: 1%;
+				margin-right: 1%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				overflow: scroll;
+				background-color: #a31d1d;
+				border: white solid 5px;
+				border-radius: 5px;
+				display: flex;
+				flex-direction: column;
+				height: 350px;
+				width: 350px;
+			}
+
+			.contenido main .fichas .descripcion img{
+				float: left;
+				justify-content: left;
+				width: 35% ;
+				margin: 2%;
+			}
+			
+			.contenido main .fichas article p{
+				color:white;
+				font: bolder
+			}
+
+
+			
+
+			/*ESTILOS PARA LOS NOMBRES DE CADA DATO DE LA FICHA
+				color: white;
+				font-weight: bold;
+				font-size: 0.8em;
+			
+			*ESTILOS PARA LOS VALORES DE CADA DATO DE LA FICHA
+				color: white;
+				font-size: 1em;
+			*/
+
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="contenido">
+			<header>
+				<h1>Belenes El Pastorcito Bizco <br>(Pedro Díaz Garduño)</h1>
+			</header>
+
+			<main>
+				<div class="fichas">
+				<article>
+					<div class="descripcion">
+						<img src="./img/nacimiento.jpg">
+						<p>
+							<span>Artículo:</span><span> Nacimiento</span><br>
+							<span>Referencia:</span><span> FEX-856</span><br>
+							<span>Precio:</span><span> 551 €</span>
+						</p>
+							
+					</div>						
+					
+					<p><span> Descripción:</span><br><span>Elaborado artesanalmente por el prestigioso artista Jesús Griñán.<br>Figuras fabricadas en barro lienzado y pintadas a mano.<br>Conjunto compuesto por 6 piezas.<br>Tamaño: 32 cm.<br>Tiempo de entrega estimado: 30 días.</span></p>
+					
+				</article>
+				
+				
+				<article>
+					<div class="descripcion">
+						<img src="./img/anciano.jpg">
+						<p>
+							<span>Artículo:</span><span> Anciano con fardo de leña</span><br>	
+							<span>Referencia:</span><span> FEX-1123</span><br>
+							<span>Precio:</span><span> 35 €</span>
+						</p>
+					</div>	
+					<br>
+					<p><span>Descripción:</span><br><span>Elaborado artesanalmente por el prestigioso artista Jesús Griñán.<br>Figura fabricada en barro lienzado y pintada a mano.<br>Tamaño: 20 cm.<br>Tiempo de entrega estimado: 30 días.</span></p>					
+				</article>
+				
+			
+				<article>
+					<div class="descripcion">
+						<img src="./img/campo.jpg">	
+						<p>
+							<span>Artículo:</span><span> Campo de cultivo</span><br>
+							<span>Referencia:</span><span> ARB- CMP-526</span><br>
+							<span>Precio:</span><span> 50 €</span>
+						</p>
+					</div>	
+					<br>
+					
+					<p><span>Descripción:</span><br><span>Dispone de una bomba de agua para simular el riego.<br>La superficie tiene unos orificios por donde el agua se drena.<br>Tamaño: 23x29x16 cm.</span></p>	
+				</article>
+				</div>
+				
+			</main>
+		</div>
+	</body>
+</html>

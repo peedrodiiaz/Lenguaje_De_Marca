@@ -1,0 +1,45 @@
+@font-face {
+    font-family: UrbanElegance;
+    src: url(../fonts/UrbanElegance.ttf);
+}
+body{
+    background-color: rgb(242, 242,242);
+}
+h1{
+    color:rgb(0, 68,98);
+    font-size: 2em;
+    font-family: Helvetica,"Comic Sans", Sans-serif;
+    letter-spacing: 5pt;
+    font-weight: normal;
+}
+h2{
+    font-family: UrbanElegance, Sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: rgb(114, 114,114);
+}
+#fecha{
+    text-transform: capitalize;
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: rgb(142, 142,142);
+    letter-spacing: 0.1pt;
+    text-align:justify ;
+    text-align: right;
+}
+.imagen {
+    
+    text-align: center;
+    
+}
+img{
+    width: 55%;
+}
+.texto{
+    font-family: 'Times New Roman', Verdana,Georgia,serif;
+    font-size: 0.95em;
+    color: rgb(124, 124,124);
+}
+span{
+    font-style: italic;
+}
